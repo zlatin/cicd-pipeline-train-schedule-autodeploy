@@ -3,7 +3,7 @@ pipeline {
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "fijoeafdk/train-schedule"
-        CANARY_REPLICAS = 1
+        CANARY_REPLICAS = 0
     }
     stages {
         stage('Build') {
